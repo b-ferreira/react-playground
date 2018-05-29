@@ -1,10 +1,10 @@
 # React playground
 
-In order to check the original challenge content, please check this [repo](https://github.com/ifood/ifood-frontend-test).
+Just a playground to try out React best practices.
 
 ## Live demo
 
-Check its live demo [here](https://ifood-frontend-test.herokuapp.com/)
+Check its live demo [here](https://react-app-playground.herokuapp.com/)
 
 ## How to setup this test
 
