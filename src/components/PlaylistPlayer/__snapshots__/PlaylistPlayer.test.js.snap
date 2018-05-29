@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="PlaylistPlayer"
+>
+  <iframe
+    allow="encrypted-media"
+    allowtransparency="true"
+    src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:37i9dQZF1DWYtKpmml7moA"
+    title="Playlist Player"
+  />
+</div>
+`;

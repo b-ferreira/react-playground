@@ -1,0 +1,174 @@
+// ----
+// Flexbox layout constraints
+.flex
+  display: flex
+
+.flex-horizontal
+  flex-direction: row
+
+.flex-vertical
+  flex-direction: column
+
+.flex-centered
+  align-items:     center
+  justify-content: center
+
+.w100
+  width: 100%
+
+.h100
+  height: 100%
+
+// ----
+// Padding layout constraints
+// Padding 10
+.pd-10
+  padding: 10px
+
+.pd-top-10
+  padding-top: 10px
+
+.pd-bottom-10
+  padding-bottom: 10px
+
+.pd-left-10
+  padding-left: 10px
+
+.pd-right-10
+  padding-right: 10px
+
+// Padding 20
+.pd-20
+  padding: 20px
+
+.pd-top-20
+  padding-top: 20px
+
+.pd-bottom-20
+  padding-bottom: 20px
+
+.pd-left-20
+  padding-left: 20px
+
+.pd-right-20
+  padding-right: 20px
+
+// ----
+// Margin layout constraints
+// Margin 10
+.mg-10
+  margin: 10px
+
+.mg-top-10
+  margin-top: 10px
+
+.mg-bottom-10
+  margin-bottom: 10px
+
+.mg-left-10
+  margin-left: 10px
+
+.mg-right-10
+  margin-right: 10px
+
+// margin 20
+.mg-20
+  margin: 20px
+
+.mg-top-20
+  margin-top: 20px
+
+.mg-bottom-20
+  margin-bottom: 20px
+
+.mg-left-20
+  margin-left: 20px
+
+.mg-right-20
+  margin-right: 20px
+
+// ----
+// Border layout constraints
+// General
+.ba, .bt, .br, .bb, .bl
+  border-width: 1px
+
+.ba
+  border-style: solid
+
+.bt
+  border-top-style: solid
+
+.br
+  border-right-style: solid
+
+.bb
+  border-bottom-style: solid
+
+.bl
+  border-left-style: solid
+
+.bn
+  border-width: 0
+  border-style: none
+
+// Radius
+.br0
+  @include rounded(0)
+
+.br1
+  @include rounded(.125rem)
+
+.br2
+  @include rounded(.25rem)
+
+.br3
+  @include rounded(.5rem)
+
+.br4
+  @include rounded(1rem)
+
+.br100
+  @include rounded(100%)
+
+.br--tr
+  border-top-right-radius: 1rem
+
+.br--tl
+  border-top-left-radius: 1rem
+
+.br--br
+  border-bottom-right-radius: 1rem
+
+.br--bl
+  border-bottom-left-radius: 1rem
+
+// ----
+// Background constraints
+.bg--main
+  background-color: $color--main_bg
+
+.bg--sub
+  background-color: $color--sub_bg
+
+.bg--header
+  background-color: $color--header_bg
+
+.bg--header_sub
+  background-color: $color--header_sub
+
+.bg--cold
+  background-color: $color--cold
+
+.bg--dark_gray
+  background-color: $color--dark_gray
+
+.bg--hot
+  background-color: $color--hot
+
+.bg--spotify
+  background-color: $color--spotify
+
+.bg--white
+  background-color: #fff
+

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="PlaylistList"
+>
+  <figure
+    className="PlaylistCard not-playing animated"
+    onClick={[Function]}
+  >
+    <img
+      alt="Awesome Playlist"
+      className="PlaylistCard__image"
+      src="asd"
+    />
+    <div
+      className="PlaylistCard__play flex flex-centered"
+    >
+      <span
+        className="br4 fc--default b bg--spotify"
+      >
+        Play
+      </span>
+    </div>
+  </figure>
+</div>
+`;

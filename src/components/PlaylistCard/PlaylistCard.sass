@@ -1,0 +1,68 @@
+.PlaylistCard
+  width: $card-width
+  height: $card-height
+  cursor: pointer
+  position: relative
+  overflow: hidden
+  margin: 5px
+
+  @include tablet
+    width: $card-width-tablet
+    height: $card-height-tablet
+
+  @include desktop
+    margin: 14px
+    width: $card-width-desktop
+    height: $card-height-desktop
+
+  &.not-playing
+    .PlaylistCard__play
+      transition: all .2s ease-in-out
+
+    &:hover
+      .PlaylistCard__image
+        filter: blur(5px)
+
+      .PlaylistCard__play
+        opacity: 1
+
+  &.playing
+    .PlaylistCard__image
+      filter: blur(5px)
+
+    .PlaylistCard__play
+      opacity: 1
+
+
+.PlaylistCard__image
+    max-width: $card-width
+    max-height: $card-height
+
+    @include tablet
+      max-width: $card-width-tablet
+      max-height: $card-height-tablet
+
+    @include desktop
+      max-width: $card-width-desktop
+      max-height: $card-height-desktop
+
+.PlaylistCard__play
+    top: 0
+    opacity: 0
+    width: $card-width
+    height: $card-height
+    position: absolute
+    background-color: rgba(0,0,0,0.5)
+
+    @include tablet
+      width: $card-width-tablet
+      height: $card-height-tablet
+
+    @include desktop
+      width: $card-width-desktop
+      height: $card-height-desktop
+
+    span
+      padding: .5rem 2rem .55rem
+
+
